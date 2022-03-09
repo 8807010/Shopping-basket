@@ -51,4 +51,16 @@ window.addEventListener('DOMContentLoaded', function () {
             products[i].remove();
         });
     }); 
-});
+
+    // for (let i = 0; i < buttons.length; i++) {
+    //     buttons[i].addEventListener('click', function() {
+
+    //         let item = products[i].cloneNode(true);
+    //         let btn = item.querySelector('button');
+
+    //         btn.remove();
+    //         field.appendChild(item);
+    //         products[i].remove();
+    //     })}
+    
+})
